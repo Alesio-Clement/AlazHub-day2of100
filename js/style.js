@@ -1,3 +1,5 @@
+
+
 let modalId = $('#image-gallery');
 
 $(document)
@@ -93,4 +95,4 @@ $(document)
 
 
 
-  
+ 

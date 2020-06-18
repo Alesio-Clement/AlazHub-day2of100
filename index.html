@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+
+    <link href="css/hover.css" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/6cbf38201a.js"></script>
     
@@ -24,13 +27,13 @@
         <ul class="navbar-nav ml-left">
          
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link hvr-bounce-to-right" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link hvr-bounce-to-right" href="#">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link hvr-bounce-to-right" href="#">About Us</a>
           </li>
         </ul>
         
@@ -66,7 +69,7 @@
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('images/slider/demo.jpg')">
+        <div class="carousel-item" style="background-image: url('images/slider/slider-3.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3 class="display-4">Third Slide</h3>
             <p class="lead">This is a description for the third slide.</p>
@@ -95,7 +98,7 @@
                       <figcaption>
                           <h2><span>SERVICES</span></h2>
                           <p>
-                              <a href="#" data-toggle="modal" data-target="#exampleModal4"><i class="fa fa-code"></i></a>
+                              <a href="#" data-toggle="modal" data-target="#services"><i class="fa fa-code"></i></a>
                           </p>
                       </figcaption>
                   </figure>
@@ -106,7 +109,7 @@
                       <figcaption>
                         <h2><span>WORK</span></h2>
                           <p>
-                            <a href="#"><i class="fa fa-code"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#work"><i class="fa fa-code"></i></a>
                           </p>
                       </figcaption>
                   </figure>
@@ -117,7 +120,7 @@
                       <figcaption>
                         <h2><span>ALAZHUB</span></h2>
                           <p>
-                            <a href="#"><i class="fa fa-code"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#alazhub"><i class="fa fa-code"></i></a>
 
                           </p>
                       </figcaption>
@@ -131,7 +134,7 @@
                       <figcaption>
                         <h2><span>TEAM</span></h2>
                           <p>
-                            <a href="#" ><i class="fa fa-code"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#team"><i class="fa fa-code"></i></a>
                           </p>
                       </figcaption>
                   </figure>
@@ -142,7 +145,7 @@
                       <figcaption>
                           <h2><span>TESTIMONIALS</span></h2>
                           <p>
-                            <a href="#"><i class="fa fa-code"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#test"><i class="fa fa-code"></i></a>
 
                           </p>
                       </figcaption>
@@ -156,20 +159,17 @@
                       <figcaption>
                         <h2><span>CONTACTS</span></h2>
                           <p>
-                            <a href="#"><i class="fa fa-code"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#contact"><i class="fa fa-code"></i></a>
                           </p>
                       </figcaption>
                   </figure>
 
               </div>
-          </div>
-          
+          </div>  
       </div>
-
-      
-
   </div>
-  <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+
+  <div class="modal fade" id="services" tabindex="-1" role="dialog" aria-labelledby="services" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -181,26 +181,24 @@
         <div class="modal-body">
           <div class="block bg-lighter full-block bottom-null ">
             <div class="container">
-              <h1 class="text-center">Our Services <span class="color">In</span></h1>
-              <p class="info text-center">Our Services</p>
               <div class="hexagon-box-wrapper">
                 <div class="hexagon-box">
                   <div class="hexagon-icon"><i class="icon-computer-with-monitor"></i>
                     <div class="h-box">
-                      <div class="h-box-title">PC Repair</div>
-                      <div class="h-box-text">Problem PC? We’ll solve it. We’re who you call when your desktop runs slow and your programs stop working. </div>
+                      <div class="h-box-title">WEBSITE DEVELOPMENT</div>
+                      <div class="h-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum. </div>
                     </div>
                   </div>
                   <div class="hexagon-icon"><i class="icon-apple"></i>
                     <div class="h-box">
-                      <div class="h-box-title">Mac Repair</div>
-                      <div class="h-box-text">Our Mac repair service offers high-quality repairs and advice: without the premium price.</div>
+                      <div class="h-box-title">GRAPHIC DESIGN</div>
+                      <div class="h-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, doloremque.</div>
                     </div>
                   </div>
                   <div class="hexagon-icon"><i class="icon-updated-security-for-protection-on-internet"></i>
                     <div class="h-box">
-                      <div class="h-box-title">Data Backup & Recovery</div>
-                      <div class="h-box-text">We can help you back up your important personal data (photos, videos, documents, school work, etc.) to disk and cloud with no hassles.</div>
+                      <div class="h-box-title">DIGITAL MARKETING</div>
+                      <div class="h-box-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, illo!</div>
                     </div>
                   </div>
                   <div class="hexagon-icon visible-xs">
@@ -208,8 +206,8 @@
                   </div>
                   <div class="hexagon-icon"><i class="icon-data-network"></i>
                     <div class="h-box">
-                      <div class="h-box-title">Network / Servers</div>
-                      <div class="h-box-text">Our technicians can set up a secure wireless network in your home that will allow you to share everything between as many computers</div>
+                      <div class="h-box-title">CODE ACADEMY</div>
+                      <div class="h-box-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, harum.</div>
                     </div>
                   </div>
                   <div class="hexagon-icon"><i class="icon-viruses"></i>
@@ -232,10 +230,338 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
+  </div>
+
+
+  <div class="modal fade" id="work" tabindex="-1" role="dialog" aria-labelledby="work" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Our Portfolio</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="block bg-lighter full-block bottom-null ">
+            <div class="container">
+              <h1 class="text-center">Our Portfolio</h1>
+              <div class="container">
+                <div class="row">
+                <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center">
+                    <button class="btn btn-default filter-button" data-filter="all">All</button>
+                    <button class="btn btn-default filter-button" data-filter="hdpe">WEBSITES</button>
+                    <button class="btn btn-default filter-button" data-filter="sprinkle">LOGOS</button>
+                    <button class="btn btn-default filter-button" data-filter="spray">APP</button>
+                    <button class="btn btn-default filter-button" data-filter="irrigation">ADADEMY</button>
+                </div>
+              </div>
+                <br/>
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="https://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+        
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                        <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+        
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                        <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+        
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                        <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+        
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter spray">
+                        <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+        
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                        <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+        
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter spray">
+                        <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+        
+                    <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                        <img src="http://fakeimg.pl/250x250/" class="img-responsive">
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="alazhub" tabindex="-1" role="dialog" aria-labelledby="alazhub" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Alazhub</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="block bg-lighter full-block bottom-null ">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                                  <div class="faq-section">
+                                      <h1>GET TO KNOW US</h1>
+                                      <div class="accordion" id="accordionExample">
+                                        <div class="card cstm-card">
+                                          <div class="card-header" id="headingOne">
+                                            <h2 class="mb-0">
+                                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                About us
+                                              </button>
+                                            </h2>
+                                          </div>
+              
+                                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">                                            </div>
+                                          </div>
+                                        </div>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit aliquam accusantium blanditiis quia repellendus, enim at. Incidunt minima inventore asperiores ex expedita facilis magnam sequi iusto? Quos voluptatum dolorum reiciendis iusto vel commodi natus sed alias, iure sint sunt quaerat, nostrum numquam quae laborum quia impedit delectus qui mollitia.
+                                        <div class="card cstm-card">
+                                          <div class="card-header" id="headingTwo">
+                                            <h2 class="mb-0">
+                                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">
+                                                Our Mission
+                                              </button>
+                                            </h2>
+                                          </div>
+                                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint maiores sequi consequatur beatae laudantium, quasi reprehenderit, veritatis deserunt eius odio sit repellat dolore exercitationem assumenda doloremque at, explicabo voluptatibus porro.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card cstm-card">
+                                          <div class="card-header" id="headingThree">
+                                            <h2 class="mb-0">
+                                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Our Values
+                                              </button>
+                                            </h2>
+                                          </div>
+                                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla incidunt dolores, tempora fuga reiciendis magni nemo aliquid, omnis accusantium nesciunt corrupti commodi consequatur repellat eaque at laborum sunt ut sit.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card cstm-card">
+                                          <div class="card-header" id="headingFour">
+                                            <h2 class="mb-0">
+                                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                               Why choose Us
+                                              </button>
+                                            </h2>
+                                          </div>
+                                          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                              Smile spoke total few great had never their too. Amongst moments do in arrived at my replied. Fat weddings servants but man believed prospect. Companions understood is as especially pianoforte connection introduced. Nay newspaper can sportsman are admitting gentleman belonging his. Is oppose no he summer lovers twenty in. Not his difficulty boisterous surrounded bed. 
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card cstm-card">
+                                          <div class="card-header" id="headingFive">
+                                            <h2 class="mb-0">
+                                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                we are technology
+                                              </button>
+                                            </h2>
+                                          </div>
+                                          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                              Smile spoke total few great had never their too. Amongst moments do in arrived at my replied. Fat weddings servants but man believed prospect. Companions understood is as especially pianoforte connection introduced. Nay newspaper can sportsman are admitting gentleman belonging his. Is oppose no he summer lovers twenty in. Not his difficulty boisterous surrounded bed. 
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card cstm-card">
+                                          <div class="card-header" id="headingSix">
+                                            <h2 class="mb-0">
+                                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                AlazHub is South Sudan
+                                              </button>
+                                            </h2>
+                                          </div>
+                                          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                              Smile spoke total few great had never their too. Amongst moments do in arrived at my replied. Fat weddings servants but man believed prospect. Companions understood is as especially pianoforte connection introduced. Nay newspaper can sportsman are admitting gentleman belonging his. Is oppose no he summer lovers twenty in. Not his difficulty boisterous surrounded bed. 
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="team" tabindex="-1" role="dialog" aria-labelledby="team" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Team</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="block bg-lighter full-block bottom-null ">
+            <div class="container">
+              <h1 class="text-center">Our Team </h1>
+              <ul class="five text-center">
+                <li class="transition">
+                  <div class="wrapper"> <img class="more-about" src="http://dooreight.com/codepen/people/more_blue.svg">
+                    <ul class="social">
+                      <li class="transition"><a href="https://www.facebook.com"><img src="http://dooreight.com/codepen/people/twitter.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/behance.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/facebook.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/skype.svg"></a></li>
+                    </ul>
+                    <img src="http://dooreight.com/codepen/people/img_01.png">
+                    <h3 class="transition">ALESIO CLEMENT <em>CO-FOUNDER</em></h3>
+                    <span class="transition">
+                    <div class="text-wrapper transition">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dicta repudiandae molestias assumenda magnam dolor hic ipsum dolores officiis vero..</p>
+                    </div>
+                    </span> </div>
+                </li>
+                <li class="transition">
+                  <div class="wrapper"> <img class="more-about" src="http://dooreight.com/codepen/people/more_blue.svg">
+                    <ul class="social">
+                      <li class="transition"><a href="https://www.facebook.com"><img src="http://dooreight.com/codepen/people/twitter.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/behance.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/facebook.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/skype.svg"></a></li>
+                    </ul>
+                    <img src="http://dooreight.com/codepen/people/img_02.png">
+                    <h3 class="transition">SUNDAY SARAH<em>CO-FOUNDER</em></h3>
+                    <span class="transition">
+                    <div class="text-wrapper transition">
+                      <p> Young artist from Barcelona. She hates Comic Sans. It was popularised in the 1960s with the release Letraset sheets containing. Various versions have evolved over the years.</p>
+                    </div>
+                    </span> </div>
+                </li>
+                <li class="transition">
+                  <div class="wrapper"> <img class="more-about" src="http://dooreight.com/codepen/people/more_blue.svg">
+                    <ul class="social">
+                      <li class="transition"><a href="https://www.facebook.com"><img src="http://dooreight.com/codepen/people/twitter.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/behance.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/facebook.svg"></a></li>
+                      <li class="transition"><a href="#"><img src="http://dooreight.com/codepen/people/skype.svg"></a></li>
+                    </ul>
+                    <img src="http://dooreight.com/codepen/people/img_03.png">
+                    <h3 class="transition">STEPHEN JOHN <em>CO-FOUNDER</em></h3>
+                    <span class="transition">
+                    <div class="text-wrapper transition">
+                      <p> Young artist from Barcelona. She hates Comic Sans. It was popularised in the 1960s with the release Letraset sheets containing. Various versions have evolved over the years.</p>
+                    </div>
+                    </span> </div>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="test" tabindex="-1" role="dialog" aria-labelledby="testy" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Testimonials</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="block bg-lighter full-block bottom-null ">
+            
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="block bg-lighter full-block bottom-null ">
+            <div class="container">
+              <h1 class="text-center">Contact Us </h1>
+              <div class="container">
+                  <div class="row text-center">
+                    <div class="col-sm-3 col-xs-6 first-box">
+                        <h1><span class="glyphicon glyphicon-earphone"></span></h1>
+                        <h3>Phone</h3>
+                        <p>+211 900 000 000</p><br>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 second-box">
+                        <h1><span class="glyphicon glyphicon-home"></span></h1>
+                        <h3>Location</h3>
+                        <p>Juba, South Sudan</p><br>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 third-box">
+                        <h1><span class="glyphicon glyphicon-send"></span></h1>
+                        <h3>E-mail</h3>
+                        <p>info@alazhub.com</p><br>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 fourth-box">
+                      <h1><span class="glyphicon glyphicon-leaf"></span></h1>
+                        <h3>Web</h3>
+                        <p>www.alazhub.com</p><br>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </div>
 
   </section>
@@ -243,60 +569,7 @@
 
 
   <footer class="footer_area">
-    <div class="container">
-      <div class="row">				
-        <div class="col-md-3 col-sm-6">
-          <div class="single_ftr">
-            <h4 class="sf_title">Contacts</h4>
-            <ul>
-              <li>xxxxxxx xxxxxxx xxxxxxx,<br> Juba,South Sudan</li>
-              <li>(+211) 685 78 455 <br> (+254) 713 278 747</li>
-              <li>info@AlazHub.com</li>
-            </ul>
-          </div>
-        </div> <!--  End Col -->
-        
-        <div class="col-md-3 col-sm-6">
-          <div class="single_ftr">
-            <h4 class="sf_title">Information</h4>
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-        </div> <!--  End Col -->
-        
-        <div class="col-md-3 col-sm-6">
-          <div class="single_ftr">
-            <h4 class="sf_title">Services</h4>
-            <ul>
-              <li><a href="#">Web Design & Development</a></li>
-              <li><a href="#">Hosting and Domain name</a></li>
-              <li><a href="#">Computer accessories supply</a></li>
-              <li><a href="#">Mobile App Develpment</a></li>
-              <li><a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-        </div> <!--  End Col -->	
-        
-        <div class="col-md-3 col-sm-6">
-          <div class="single_ftr">
-            <h4 class="sf_title">Newsletter</h4>
-            <div class="newsletter_form">
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have </p>
-              <form method="post" class="form-inline">				
-                <input name="EMAIL" id="email" placeholder="Enter Your Email" class="form-control" type="email">
-                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-              </form>
-            </div>
-          </div>
-        </div> <!--  End Col -->
-        
-      </div>
-    </div>
+    
 
   
     <div class="ftr_btm_area">
@@ -326,9 +599,11 @@
   </footer>
 
  
-<script src="js/style.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/style.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="js/style2.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
 
