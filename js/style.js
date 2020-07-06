@@ -1,4 +1,14 @@
-
+$(document).ready(function() {
+  $('#autoWidth').lightSlider({
+      autoWidth:true,
+      loop:true,
+      auto: true,
+      speed:500,
+     
+      onSliderLoad: function() {
+          $('#autoWidth').removeClass('cS-hidden');
+      } 
+  });
 
 let modalId = $('#image-gallery');
 
@@ -93,6 +103,6 @@ $(document)
     e.preventDefault(); // prevent the default action (scroll / move caret)
   });
 
-
-
+  
+  });
  
