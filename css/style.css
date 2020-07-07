@@ -207,12 +207,14 @@ figure.effect-ravi p {
 }
 
 figure.effect-ravi p a {
-    color: #fff;
+    color: transparent;
+    opacity: 0.6;
 }
 
 figure.effect-ravi p a:hover,
 figure.effect-ravi p a:focus {
     opacity: 0.6;
+    color: white;
 }
 
 figure.effect-ravi p a i {
@@ -375,9 +377,7 @@ footer ul {
     color: #fff;
     opacity: 1
 }
-.form-control{
 
-}
 .form-control:focus{
 	border-color: #33d286;
 }
@@ -1372,4 +1372,120 @@ figcaption span{
   text-transform: uppercase;
   font-family: 'Bungee', cursive;
   color: #3954A5;
+}
+
+
+.mt-60{
+  margin-top:60px;
+}
+
+.section-block-grey {
+  padding: 10px 0px 10px 0px;
+  background-color: #f9f9f9;
+}
+
+.serv-section-2 {
+  position: relative;
+  border: 1px solid #eee;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.serv-section-2:before {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 0;
+  content: " ";
+  width: 120px;
+  height: 120px;
+  background: #f5f5f5;
+  border-bottom-left-radius: 136px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.serv-section-2-icon {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  max-width: 100px;
+  z-index: 1;
+  text-align: center;
+}
+
+.serv-section-2-icon i {
+  color: #001c48;
+  font-size: 48px;
+  line-height: 65px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.serv-section-desc {
+  position: relative;
+}
+
+.serv-section-2 h4 {
+
+  font-weight: 500;
+  font-family: 'Bungee', cursive;
+  color: #3954A5;
+ 
+}
+
+.serv-section-2 h5 {
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 5px;
+}
+
+.section-heading-line-left {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #001c48;
+  border-radius: 25%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.serv-section-2 p {
+  margin-top: 25px;
+  padding-right: 50px;
+}
+
+.serv-section-2:hover .serv-section-2-icon i {
+  color: #fff;
+}
+
+.serv-section-2:hover:before {
+  background: #001c48;
+}
+
+
+@media only screen and (max-width: 375px) {
+  #particles-js {
+    display: none;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+  .navbar-toggler{
+    display: none;
+  }
+
+  figure.effect-ravi h2 {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
 }
