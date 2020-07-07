@@ -1336,8 +1336,8 @@ to {
 
 .faq-section p{
   font-size: 1.4rem;
-  
-  text-transform: lowercase;
+  text-align: justify;
+ 
 }
 
 
@@ -1382,6 +1382,10 @@ figcaption span{
 .section-block-grey {
   padding: 10px 0px 10px 0px;
   background-color: #f9f9f9;
+}
+
+.section-block-grey h4 {
+  font-family: 'Bungee', cursive;
 }
 
 .serv-section-2 {
