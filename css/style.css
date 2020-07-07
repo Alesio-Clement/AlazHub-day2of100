@@ -275,7 +275,7 @@ footer ul {
 
 	position: relative;
 	color: #fff;
-	background: #000FFF;
+	background: #3954A5;
 	word-break: break-all;
 	word-wrap: break-word;
 }
@@ -429,6 +429,8 @@ footer ul {
 }
 .copyright_text{
     margin: 6px 0;
+    font-family: 'Bungee', cursive;
+    
 }
 .payment_mthd_icon li {
 	display: inline-block;
@@ -1358,5 +1360,16 @@ figcaption span{
   
 }
 
+.figure-caption p{
+  text-transform: uppercase;
+  font-family: 'Bungee', cursive;
+  color: #3954A5;
+}
 
 
+
+#contact p, h3{
+  text-transform: uppercase;
+  font-family: 'Bungee', cursive;
+  color: #3954A5;
+}
