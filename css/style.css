@@ -1483,13 +1483,25 @@ figcaption span{
     width: 100px;
   }
 
-  .navbar-toggler{
+  .navbar-toggler,
+  .navbar-collapse{
     display: none;
   }
 
   figure.effect-ravi h2 {
     font-size: 1.2rem;
     color: #fff;
+}
+
+.section-block-grey h4 {
+  font-family: 'Bungee', cursive;
+  font-size: .8rem;
+}
+
+.masthead .masthead-heading {
+  font-size: 1.75rem;
+  line-height: 2.75rem;
+  font-family: 'Bungee', cursive;
 }
 
 }
