@@ -23,13 +23,6 @@ body {
           }
         }
 
-        @media only screen and (max-width: 375px){
-          .modal { 
-            overflow: scroll;
-            }
-          }
-      
-  
 
 .navbar{
     height: 100px;
