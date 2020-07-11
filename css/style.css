@@ -3,7 +3,33 @@
 
 *body{
     font-family: 'Bungee', cursive;
+    position: fixed;
 }
+
+body {
+  margin:0;
+}
+  .modal-open {
+      position:fixed;
+      overflow:hidden;
+  }
+      .modal { 
+          overflow: scroll;
+      }
+
+      @media only screen and (max-width: 375px){
+        .modal { 
+          overflow: scroll;
+          }
+        }
+
+        @media only screen and (max-width: 375px){
+          .modal { 
+            overflow: scroll;
+            }
+          }
+      
+  
 
 .navbar{
     height: 100px;
